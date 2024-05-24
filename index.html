@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">	
 		<link rel="stylesheet" href="main.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato:200,300,400,700' rel='stylesheet' type='text/css'>
-		<link href="https://fonts.googleapis.com/css?family=Muli:200,300" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Muli:200,300,400" rel="stylesheet">
 		<style>
 			section.bg-color-grey.banner {
 				height: 25%;
@@ -77,25 +77,37 @@
 			.bi-chevron-right::before {font-weight: bold !important;}
 			.button {
 				background: #2d388d;
-				padding-left: 0;
-				padding-right: 0;
+				padding: 0px;
 				font-weight: 400;
 				font-size: 18px;
 				vertical-align: bottom;
 				line-height: 50px;
+				display: block;
+				margin: 0 !important;
 			}
 			.button i.bi.bi-person-plus {
-				margin: 0px 10px 0px 10px;
 				display: block;
 				float: left;
-				font-size: 28px;
-				line-height: 45px;
+				font-size: 25px;
+				line-height: 48px;
+				width: 50px;
+				background: #4450ad;
 			}
 			.button i.bi.bi-chevron-double-right {
 				float: right;
 				display: block;
 				margin: 0px 6px;
 				font-size: 15px;
+			}
+			p.text-name {
+				font-size: 30px;
+			}
+			p.text-title-company {
+				font-size: 16px;
+			}
+			p.text-title-company:nth-child(2) {
+				font-size: 16px;
+				font-weight: 400;
 			}
 		</style>
 	</head>
@@ -229,7 +241,7 @@
 					<div class="col is-6">
 						<div class="button">
 							<a href="user.vcf">
-								<p class="button"><i class="bi bi-person-plus"></i> Add to Contacts  <i class="bi bi-chevron-double-right"></i></p>
+								<p class="button"><i class="bi bi-person-plus"></i> Add to Contacts</p>
 							</a>
 						</div>
 					</div>
