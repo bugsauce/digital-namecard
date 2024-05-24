@@ -54,6 +54,49 @@
 			}
 			.bottom {height:10%;}
 			.credsContain {height:13%;}
+			.button {padding-left:0;padding-right:0;}
+			.col.is-2>i {
+				width: 45px;
+				line-height: 45px;
+				border-radius: 50%;
+				text-align: center;
+				background-color: #2d388d;
+				color: white;
+				display: block;
+				font-size: 22px;
+				font-weight: bold;
+				margin: auto;
+			}
+			.text-detail {
+				font-weight: 400;
+				font-size: 16px;
+			}
+			.col i.bi.bi-chevron-right {
+				color: #2d388d;
+			}
+			.bi-chevron-right::before {font-weight: bold !important;}
+			.button {
+				background: #2d388d;
+				padding-left: 0;
+				padding-right: 0;
+				font-weight: 400;
+				font-size: 18px;
+				vertical-align: bottom;
+				line-height: 50px;
+			}
+			.button i.bi.bi-person-plus {
+				margin: 0px 10px 0px 10px;
+				display: block;
+				float: left;
+				font-size: 28px;
+				line-height: 45px;
+			}
+			.button i.bi.bi-chevron-double-right {
+				float: right;
+				display: block;
+				margin: 0px 6px;
+				font-size: 15px;
+			}
 		</style>
 	</head>
 	
@@ -87,13 +130,13 @@
 			<a href="mailto:adam@rbrealtygrp.com">
 				<div class="container">
 					<div class="row detail">
-						<div class="col">
+						<div class="col is-2">
 							<i class="bi bi-envelope-at"></i>
 						</div>
-						<div class="col is-8">
+						<div class="col is-5">
 							<p class="text-detail">adam@rbrealtygrp.com</p>
 						</div>
-						<div class="col">
+						<div class="col is-3">
 							<i class="bi bi-chevron-right"></i>
 						</div>
 					</div>
@@ -105,13 +148,13 @@
 			<a href="tel:+13233832578">
 				<div class="container">
 					<div class="row detail">
-						<div class="col">
+						<div class="col is-2">
 							<i class="bi bi-telephone"></i>
 						</div>
-						<div class="col is-8">
+						<div class="col is-5">
 							<p class="text-detail">(323) 383-2578</p>
 						</div>
-						<div class="col">
+						<div class="col is-3">
 							<i class="bi bi-chevron-right"></i>
 						</div>
 					</div>
@@ -123,13 +166,13 @@
 			<a href="https://www.rbrealtygrp.com">
 				<div class="container">
 					<div class="row detail">
-						<div class="col">
+						<div class="col is-2">
 							<i class="bi bi-link-45deg"></i>
 						</div>
-						<div class="col is-8">
+						<div class="col is-5">
 							<p class="text-detail">RBRealtyGrp.com</p>
 						</div>
-						<div class="col">
+						<div class="col is-3">
 							<i class="bi bi-chevron-right"></i>
 						</div>
 					</div>
@@ -141,13 +184,13 @@
 			<a href="https://www.google.com/maps/place/RB+Realty+Group,+5150+Wilshire+Blvd+%23505,+Los+Angeles,+CA+90036/@34.061949,-118.342178,16z/data=!4m6!3m5!1s0x80c2b8e0ef52adcb:0x508ae22f848e7270!8m2!3d34.061949!4d-118.342178!16s%2Fg%2F11c4b49hlz">
 				<div class="container">
 					<div class="row detail">
-						<div class="col">
+						<div class="col is-2">
 							<i class="bi bi-geo-alt"></i>
 						</div>
-						<div class="col is-8">
-							<p class="text-detail">5150 Wilshire Blvd Suite 505, Los Angeles, CA 90036</p>
+						<div class="col is-5">
+							<p class="text-detail">5150 Wilshire Blvd Suite 505</br>Los Angeles, CA 90036</p>
 						</div>
-						<div class="col">
+						<div class="col is-3">
 							<i class="bi bi-chevron-right"></i>
 						</div>
 					</div>
@@ -183,7 +226,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col"></div>
-					<div class="col is-5">
+					<div class="col is-6">
 						<div class="button">
 							<a href="user.vcf">
 								<p class="button"><i class="bi bi-person-plus"></i> Add to Contacts  <i class="bi bi-chevron-double-right"></i></p>
